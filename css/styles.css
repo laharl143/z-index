@@ -1,0 +1,52 @@
+/********************* Tag selector ****************/
+body {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+div {
+    height:150px;
+    width: 150px;
+    /* border: 1px solid; */
+    position: absolute;   /* VERY IMPORTANT! you need to put "position:absolute" to the element you want to apply z-index or it wont have any effect */
+}
+h2 {
+    width:1000px;
+}
+
+/********************* Class selector ****************/
+.red {
+    background-color: red;
+    z-index: 0;
+}
+
+.yellow {
+    background-color: yellow;
+    left: 20px;
+    top: 80px;
+    z-index: 0;
+}
+
+.blue {
+    background-color: blue;
+    left:40px;
+    top:110px;
+    z-index: 0;
+    color:white;
+}
+
+/********************* ID selector ****************/
+#div2 {
+    position: relative;
+    top: 300px;
+}
+
+#yellow2 {
+    border: 1px solid;
+    z-index: 1;   /* VERY IMPORTANT! you need to put "position:absolute" to the element you want to apply z-index or it wont have any effect */
+}
+
+#blue2 {
+    z-index: 0;
+    padding-top: 127px;
+    
+}
